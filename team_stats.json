@@ -1,0 +1,2386 @@
+{
+  "Egypt": {
+    "elo": 1653.3,
+    "recent_points": 1.6,
+    "avg_scored": 0.6,
+    "avg_conceded": 0.4,
+    "rolling_gd": 0.2,
+    "matches_played": 271
+  },
+  "Togo": {
+    "elo": 1435.5,
+    "recent_points": 0.4,
+    "avg_scored": 0.6,
+    "avg_conceded": 1.4,
+    "rolling_gd": -0.8,
+    "matches_played": 184
+  },
+  "Tunisia": {
+    "elo": 1693.1,
+    "recent_points": 2.6,
+    "avg_scored": 1.6,
+    "avg_conceded": 0.4,
+    "rolling_gd": 1.2,
+    "matches_played": 258
+  },
+  "Trinidad and Tobago": {
+    "elo": 1465.6,
+    "recent_points": 0.6,
+    "avg_scored": 3.0,
+    "avg_conceded": 2.2,
+    "rolling_gd": 0.8,
+    "matches_played": 286
+  },
+  "Canada": {
+    "elo": 1662.8,
+    "recent_points": 1.8,
+    "avg_scored": 2.2,
+    "avg_conceded": 1.4,
+    "rolling_gd": 0.8,
+    "matches_played": 172
+  },
+  "Burkina Faso": {
+    "elo": 1589.6,
+    "recent_points": 1.6,
+    "avg_scored": 0.6,
+    "avg_conceded": 0.4,
+    "rolling_gd": 0.2,
+    "matches_played": 218
+  },
+  "Gabon": {
+    "elo": 1589.5,
+    "recent_points": 2.6,
+    "avg_scored": 1.8,
+    "avg_conceded": 0.6,
+    "rolling_gd": 1.2,
+    "matches_played": 185
+  },
+  "Guatemala": {
+    "elo": 1587.5,
+    "recent_points": 2.6,
+    "avg_scored": 4.6,
+    "avg_conceded": 0.0,
+    "rolling_gd": 4.6,
+    "matches_played": 206
+  },
+  "Armenia": {
+    "elo": 1410.8,
+    "recent_points": 0.8,
+    "avg_scored": 1.2,
+    "avg_conceded": 3.2,
+    "rolling_gd": -2.0,
+    "matches_played": 164
+  },
+  "Ivory Coast": {
+    "elo": 1604.2,
+    "recent_points": 1.8,
+    "avg_scored": 1.2,
+    "avg_conceded": 1.0,
+    "rolling_gd": 0.2,
+    "matches_played": 247
+  },
+  "Mexico": {
+    "elo": 1939.4,
+    "recent_points": 3.0,
+    "avg_scored": 3.0,
+    "avg_conceded": 0.6,
+    "rolling_gd": 2.4,
+    "matches_played": 361
+  },
+  "Iran": {
+    "elo": 1754.7,
+    "recent_points": 1.4,
+    "avg_scored": 3.6,
+    "avg_conceded": 0.8,
+    "rolling_gd": 2.8,
+    "matches_played": 288
+  },
+  "Bermuda": {
+    "elo": 1522.6,
+    "recent_points": 0.8,
+    "avg_scored": 1.0,
+    "avg_conceded": 2.2,
+    "rolling_gd": -1.2,
+    "matches_played": 84
+  },
+  "Cameroon": {
+    "elo": 1615.6,
+    "recent_points": 1.2,
+    "avg_scored": 0.6,
+    "avg_conceded": 0.6,
+    "rolling_gd": 0.0,
+    "matches_played": 242
+  },
+  "Senegal": {
+    "elo": 1781.2,
+    "recent_points": 2.0,
+    "avg_scored": 1.6,
+    "avg_conceded": 0.6,
+    "rolling_gd": 1.0,
+    "matches_played": 229
+  },
+  "China PR": {
+    "elo": 1617.2,
+    "recent_points": 0.8,
+    "avg_scored": 0.8,
+    "avg_conceded": 1.0,
+    "rolling_gd": -0.2,
+    "matches_played": 277
+  },
+  "New Zealand": {
+    "elo": 1643.0,
+    "recent_points": 1.2,
+    "avg_scored": 1.0,
+    "avg_conceded": 1.4,
+    "rolling_gd": -0.4,
+    "matches_played": 129
+  },
+  "Jamaica": {
+    "elo": 1699.6,
+    "recent_points": 2.6,
+    "avg_scored": 3.0,
+    "avg_conceded": 0.2,
+    "rolling_gd": 2.8,
+    "matches_played": 257
+  },
+  "United States": {
+    "elo": 1822.6,
+    "recent_points": 2.4,
+    "avg_scored": 3.2,
+    "avg_conceded": 0.6,
+    "rolling_gd": 2.6,
+    "matches_played": 324
+  },
+  "Ghana": {
+    "elo": 1711.0,
+    "recent_points": 1.6,
+    "avg_scored": 0.8,
+    "avg_conceded": 0.4,
+    "rolling_gd": 0.4,
+    "matches_played": 247
+  },
+  "Morocco": {
+    "elo": 1780.5,
+    "recent_points": 1.6,
+    "avg_scored": 1.8,
+    "avg_conceded": 0.8,
+    "rolling_gd": 1.0,
+    "matches_played": 239
+  },
+  "Panama": {
+    "elo": 1585.7,
+    "recent_points": 0.6,
+    "avg_scored": 1.0,
+    "avg_conceded": 2.0,
+    "rolling_gd": -1.0,
+    "matches_played": 265
+  },
+  "Algeria": {
+    "elo": 1813.4,
+    "recent_points": 2.0,
+    "avg_scored": 2.0,
+    "avg_conceded": 0.8,
+    "rolling_gd": 1.2,
+    "matches_played": 217
+  },
+  "Malta": {
+    "elo": 1161.8,
+    "recent_points": 0.0,
+    "avg_scored": 0.2,
+    "avg_conceded": 3.0,
+    "rolling_gd": -2.8,
+    "matches_played": 184
+  },
+  "Qatar": {
+    "elo": 1811.0,
+    "recent_points": 1.8,
+    "avg_scored": 2.4,
+    "avg_conceded": 1.0,
+    "rolling_gd": 1.4,
+    "matches_played": 328
+  },
+  "South Korea": {
+    "elo": 1817.5,
+    "recent_points": 2.0,
+    "avg_scored": 0.8,
+    "avg_conceded": 0.6,
+    "rolling_gd": 0.2,
+    "matches_played": 326
+  },
+  "Nigeria": {
+    "elo": 1764.3,
+    "recent_points": 2.0,
+    "avg_scored": 2.0,
+    "avg_conceded": 1.6,
+    "rolling_gd": 0.4,
+    "matches_played": 263
+  },
+  "Philippines": {
+    "elo": 1434.2,
+    "recent_points": 1.4,
+    "avg_scored": 1.6,
+    "avg_conceded": 1.6,
+    "rolling_gd": 0.0,
+    "matches_played": 161
+  },
+  "Zambia": {
+    "elo": 1524.9,
+    "recent_points": 1.0,
+    "avg_scored": 1.4,
+    "avg_conceded": 2.2,
+    "rolling_gd": -0.8,
+    "matches_played": 305
+  },
+  "South Africa": {
+    "elo": 1550.1,
+    "recent_points": 1.2,
+    "avg_scored": 1.0,
+    "avg_conceded": 1.8,
+    "rolling_gd": -0.8,
+    "matches_played": 292
+  },
+  "Vietnam": {
+    "elo": 1649.2,
+    "recent_points": 2.2,
+    "avg_scored": 1.0,
+    "avg_conceded": 0.2,
+    "rolling_gd": 0.8,
+    "matches_played": 167
+  },
+  "Guam": {
+    "elo": 1077.7,
+    "recent_points": 0.0,
+    "avg_scored": 0.4,
+    "avg_conceded": 3.8,
+    "rolling_gd": -3.4,
+    "matches_played": 79
+  },
+  "DR Congo": {
+    "elo": 1599.2,
+    "recent_points": 1.2,
+    "avg_scored": 1.6,
+    "avg_conceded": 1.4,
+    "rolling_gd": 0.2,
+    "matches_played": 214
+  },
+  "Bosnia and Herzegovina": {
+    "elo": 1570.1,
+    "recent_points": 1.2,
+    "avg_scored": 2.0,
+    "avg_conceded": 2.0,
+    "rolling_gd": 0.0,
+    "matches_played": 186
+  },
+  "Congo": {
+    "elo": 1533.8,
+    "recent_points": 1.6,
+    "avg_scored": 1.4,
+    "avg_conceded": 1.0,
+    "rolling_gd": 0.4,
+    "matches_played": 157
+  },
+  "Uganda": {
+    "elo": 1598.6,
+    "recent_points": 2.6,
+    "avg_scored": 1.8,
+    "avg_conceded": 0.0,
+    "rolling_gd": 1.8,
+    "matches_played": 288
+  },
+  "Libya": {
+    "elo": 1508.9,
+    "recent_points": 1.0,
+    "avg_scored": 1.0,
+    "avg_conceded": 1.6,
+    "rolling_gd": -0.6,
+    "matches_played": 193
+  },
+  "Spain": {
+    "elo": 1975.2,
+    "recent_points": 2.2,
+    "avg_scored": 3.6,
+    "avg_conceded": 0.4,
+    "rolling_gd": 3.2,
+    "matches_played": 262
+  },
+  "Poland": {
+    "elo": 1818.4,
+    "recent_points": 2.6,
+    "avg_scored": 2.0,
+    "avg_conceded": 0.6,
+    "rolling_gd": 1.4,
+    "matches_played": 251
+  },
+  "Costa Rica": {
+    "elo": 1703.1,
+    "recent_points": 1.2,
+    "avg_scored": 0.8,
+    "avg_conceded": 0.8,
+    "rolling_gd": 0.0,
+    "matches_played": 312
+  },
+  "U.S. Virgin Islands": {
+    "elo": 1116.9,
+    "recent_points": 0.6,
+    "avg_scored": 0.6,
+    "avg_conceded": 1.8,
+    "rolling_gd": -1.2,
+    "matches_played": 51
+  },
+  "Saint Lucia": {
+    "elo": 1313.8,
+    "recent_points": 0.8,
+    "avg_scored": 0.4,
+    "avg_conceded": 1.4,
+    "rolling_gd": -1.0,
+    "matches_played": 99
+  },
+  "Chile": {
+    "elo": 1774.1,
+    "recent_points": 1.0,
+    "avg_scored": 1.0,
+    "avg_conceded": 1.2,
+    "rolling_gd": -0.2,
+    "matches_played": 257
+  },
+  "Faroe Islands": {
+    "elo": 1233.6,
+    "recent_points": 0.6,
+    "avg_scored": 0.2,
+    "avg_conceded": 2.8,
+    "rolling_gd": -2.6,
+    "matches_played": 137
+  },
+  "Finland": {
+    "elo": 1604.1,
+    "recent_points": 1.2,
+    "avg_scored": 1.8,
+    "avg_conceded": 1.6,
+    "rolling_gd": 0.2,
+    "matches_played": 223
+  },
+  "Kuwait": {
+    "elo": 1542.8,
+    "recent_points": 1.8,
+    "avg_scored": 3.2,
+    "avg_conceded": 1.4,
+    "rolling_gd": 1.8,
+    "matches_played": 275
+  },
+  "Syria": {
+    "elo": 1703.5,
+    "recent_points": 3.0,
+    "avg_scored": 2.8,
+    "avg_conceded": 0.8,
+    "rolling_gd": 2.0,
+    "matches_played": 250
+  },
+  "Iceland": {
+    "elo": 1722.7,
+    "recent_points": 2.6,
+    "avg_scored": 1.2,
+    "avg_conceded": 0.2,
+    "rolling_gd": 1.0,
+    "matches_played": 205
+  },
+  "Norway": {
+    "elo": 1738.6,
+    "recent_points": 1.8,
+    "avg_scored": 1.8,
+    "avg_conceded": 0.8,
+    "rolling_gd": 1.0,
+    "matches_played": 218
+  },
+  "British Virgin Islands": {
+    "elo": 1055.5,
+    "recent_points": 0.0,
+    "avg_scored": 1.2,
+    "avg_conceded": 3.4,
+    "rolling_gd": -2.2,
+    "matches_played": 63
+  },
+  "Moldova": {
+    "elo": 1178.6,
+    "recent_points": 0.0,
+    "avg_scored": 0.4,
+    "avg_conceded": 2.0,
+    "rolling_gd": -1.6,
+    "matches_played": 186
+  },
+  "Cyprus": {
+    "elo": 1403.5,
+    "recent_points": 1.2,
+    "avg_scored": 1.6,
+    "avg_conceded": 2.8,
+    "rolling_gd": -1.2,
+    "matches_played": 167
+  },
+  "Lithuania": {
+    "elo": 1277.3,
+    "recent_points": 0.6,
+    "avg_scored": 0.6,
+    "avg_conceded": 3.0,
+    "rolling_gd": -2.4,
+    "matches_played": 186
+  },
+  "Romania": {
+    "elo": 1644.7,
+    "recent_points": 1.4,
+    "avg_scored": 1.0,
+    "avg_conceded": 1.6,
+    "rolling_gd": -0.6,
+    "matches_played": 214
+  },
+  "Latvia": {
+    "elo": 1260.9,
+    "recent_points": 0.6,
+    "avg_scored": 0.4,
+    "avg_conceded": 1.8,
+    "rolling_gd": -1.4,
+    "matches_played": 205
+  },
+  "Saint Kitts and Nevis": {
+    "elo": 1393.4,
+    "recent_points": 1.0,
+    "avg_scored": 1.4,
+    "avg_conceded": 1.2,
+    "rolling_gd": 0.2,
+    "matches_played": 115
+  },
+  "Georgia": {
+    "elo": 1557.5,
+    "recent_points": 1.0,
+    "avg_scored": 0.8,
+    "avg_conceded": 1.0,
+    "rolling_gd": -0.2,
+    "matches_played": 183
+  },
+  "Sweden": {
+    "elo": 1861.6,
+    "recent_points": 2.6,
+    "avg_scored": 1.6,
+    "avg_conceded": 0.2,
+    "rolling_gd": 1.4,
+    "matches_played": 270
+  },
+  "Japan": {
+    "elo": 1851.8,
+    "recent_points": 2.4,
+    "avg_scored": 2.4,
+    "avg_conceded": 0.4,
+    "rolling_gd": 2.0,
+    "matches_played": 320
+  },
+  "Azerbaijan": {
+    "elo": 1336.9,
+    "recent_points": 0.8,
+    "avg_scored": 0.8,
+    "avg_conceded": 1.6,
+    "rolling_gd": -0.8,
+    "matches_played": 194
+  },
+  "Cayman Islands": {
+    "elo": 1249.1,
+    "recent_points": 1.8,
+    "avg_scored": 1.0,
+    "avg_conceded": 1.6,
+    "rolling_gd": -0.6,
+    "matches_played": 50
+  },
+  "Albania": {
+    "elo": 1513.6,
+    "recent_points": 1.4,
+    "avg_scored": 2.0,
+    "avg_conceded": 1.4,
+    "rolling_gd": 0.6,
+    "matches_played": 182
+  },
+  "Andorra": {
+    "elo": 1184.4,
+    "recent_points": 0.8,
+    "avg_scored": 0.6,
+    "avg_conceded": 1.8,
+    "rolling_gd": -1.2,
+    "matches_played": 145
+  },
+  "Singapore": {
+    "elo": 1430.4,
+    "recent_points": 0.8,
+    "avg_scored": 0.6,
+    "avg_conceded": 1.8,
+    "rolling_gd": -1.2,
+    "matches_played": 242
+  },
+  "Malaysia": {
+    "elo": 1545.9,
+    "recent_points": 2.4,
+    "avg_scored": 2.2,
+    "avg_conceded": 0.4,
+    "rolling_gd": 1.8,
+    "matches_played": 232
+  },
+  "North Korea": {
+    "elo": 1543.0,
+    "recent_points": 1.6,
+    "avg_scored": 0.8,
+    "avg_conceded": 0.6,
+    "rolling_gd": 0.2,
+    "matches_played": 210
+  },
+  "Czech Republic": {
+    "elo": 1703.6,
+    "recent_points": 1.8,
+    "avg_scored": 1.8,
+    "avg_conceded": 1.2,
+    "rolling_gd": 0.6,
+    "matches_played": 220
+  },
+  "Bulgaria": {
+    "elo": 1545.0,
+    "recent_points": 0.8,
+    "avg_scored": 0.4,
+    "avg_conceded": 2.0,
+    "rolling_gd": -1.6,
+    "matches_played": 184
+  },
+  "Slovakia": {
+    "elo": 1688.5,
+    "recent_points": 1.6,
+    "avg_scored": 1.4,
+    "avg_conceded": 1.2,
+    "rolling_gd": 0.2,
+    "matches_played": 211
+  },
+  "Australia": {
+    "elo": 1786.7,
+    "recent_points": 2.4,
+    "avg_scored": 3.2,
+    "avg_conceded": 0.4,
+    "rolling_gd": 2.8,
+    "matches_played": 235
+  },
+  "Honduras": {
+    "elo": 1698.7,
+    "recent_points": 2.6,
+    "avg_scored": 2.0,
+    "avg_conceded": 0.4,
+    "rolling_gd": 1.6,
+    "matches_played": 288
+  },
+  "El Salvador": {
+    "elo": 1603.5,
+    "recent_points": 2.4,
+    "avg_scored": 1.4,
+    "avg_conceded": 0.2,
+    "rolling_gd": 1.2,
+    "matches_played": 221
+  },
+  "Hong Kong": {
+    "elo": 1419.5,
+    "recent_points": 0.8,
+    "avg_scored": 0.4,
+    "avg_conceded": 1.8,
+    "rolling_gd": -1.4,
+    "matches_played": 155
+  },
+  "Turkmenistan": {
+    "elo": 1479.0,
+    "recent_points": 1.4,
+    "avg_scored": 1.4,
+    "avg_conceded": 1.2,
+    "rolling_gd": 0.2,
+    "matches_played": 105
+  },
+  "Nepal": {
+    "elo": 1205.5,
+    "recent_points": 0.6,
+    "avg_scored": 0.4,
+    "avg_conceded": 3.2,
+    "rolling_gd": -2.8,
+    "matches_played": 118
+  },
+  "Yemen": {
+    "elo": 1385.8,
+    "recent_points": 0.8,
+    "avg_scored": 0.4,
+    "avg_conceded": 2.2,
+    "rolling_gd": -1.8,
+    "matches_played": 171
+  },
+  "Haiti": {
+    "elo": 1677.8,
+    "recent_points": 0.6,
+    "avg_scored": 0.8,
+    "avg_conceded": 1.4,
+    "rolling_gd": -0.6,
+    "matches_played": 203
+  },
+  "Bhutan": {
+    "elo": 1001.5,
+    "recent_points": 0.6,
+    "avg_scored": 0.4,
+    "avg_conceded": 2.8,
+    "rolling_gd": -2.4,
+    "matches_played": 79
+  },
+  "Colombia": {
+    "elo": 1948.5,
+    "recent_points": 1.6,
+    "avg_scored": 0.4,
+    "avg_conceded": 0.6,
+    "rolling_gd": -0.2,
+    "matches_played": 248
+  },
+  "Dominican Republic": {
+    "elo": 1401.8,
+    "recent_points": 1.4,
+    "avg_scored": 0.8,
+    "avg_conceded": 0.6,
+    "rolling_gd": 0.2,
+    "matches_played": 79
+  },
+  "Macau": {
+    "elo": 1051.3,
+    "recent_points": 1.4,
+    "avg_scored": 1.0,
+    "avg_conceded": 1.6,
+    "rolling_gd": -0.6,
+    "matches_played": 83
+  },
+  "Brunei": {
+    "elo": 1095.1,
+    "recent_points": 1.2,
+    "avg_scored": 0.8,
+    "avg_conceded": 2.0,
+    "rolling_gd": -1.2,
+    "matches_played": 47
+  },
+  "Peru": {
+    "elo": 1830.1,
+    "recent_points": 0.8,
+    "avg_scored": 0.4,
+    "avg_conceded": 0.8,
+    "rolling_gd": -0.4,
+    "matches_played": 217
+  },
+  "Maldives": {
+    "elo": 1267.1,
+    "recent_points": 1.2,
+    "avg_scored": 1.2,
+    "avg_conceded": 2.0,
+    "rolling_gd": -0.8,
+    "matches_played": 138
+  },
+  "Lebanon": {
+    "elo": 1587.0,
+    "recent_points": 1.6,
+    "avg_scored": 1.0,
+    "avg_conceded": 0.4,
+    "rolling_gd": 0.6,
+    "matches_played": 190
+  },
+  "Barbados": {
+    "elo": 1294.1,
+    "recent_points": 1.2,
+    "avg_scored": 1.8,
+    "avg_conceded": 1.8,
+    "rolling_gd": 0.0,
+    "matches_played": 131
+  },
+  "Dominica": {
+    "elo": 1277.3,
+    "recent_points": 0.6,
+    "avg_scored": 0.4,
+    "avg_conceded": 2.4,
+    "rolling_gd": -2.0,
+    "matches_played": 79
+  },
+  "Antigua and Barbuda": {
+    "elo": 1412.0,
+    "recent_points": 1.2,
+    "avg_scored": 1.2,
+    "avg_conceded": 3.6,
+    "rolling_gd": -2.4,
+    "matches_played": 117
+  },
+  "Oman": {
+    "elo": 1652.1,
+    "recent_points": 2.0,
+    "avg_scored": 1.6,
+    "avg_conceded": 1.0,
+    "rolling_gd": 0.6,
+    "matches_played": 303
+  },
+  "Switzerland": {
+    "elo": 1873.3,
+    "recent_points": 2.4,
+    "avg_scored": 2.6,
+    "avg_conceded": 0.4,
+    "rolling_gd": 2.2,
+    "matches_played": 208
+  },
+  "United Arab Emirates": {
+    "elo": 1596.4,
+    "recent_points": 0.6,
+    "avg_scored": 1.2,
+    "avg_conceded": 1.8,
+    "rolling_gd": -0.6,
+    "matches_played": 281
+  },
+  "Slovenia": {
+    "elo": 1529.8,
+    "recent_points": 1.2,
+    "avg_scored": 1.4,
+    "avg_conceded": 1.6,
+    "rolling_gd": -0.2,
+    "matches_played": 188
+  },
+  "Thailand": {
+    "elo": 1574.1,
+    "recent_points": 1.6,
+    "avg_scored": 1.4,
+    "avg_conceded": 0.8,
+    "rolling_gd": 0.6,
+    "matches_played": 262
+  },
+  "Kernow": {
+    "elo": 1546.7,
+    "recent_points": 2.6,
+    "avg_scored": 2.8,
+    "avg_conceded": 0.8,
+    "rolling_gd": 2.0,
+    "matches_played": 7
+  },
+  "Guernsey": {
+    "elo": 1695.4,
+    "recent_points": 2.4,
+    "avg_scored": 3.2,
+    "avg_conceded": 1.0,
+    "rolling_gd": 2.2,
+    "matches_played": 51
+  },
+  "Lesotho": {
+    "elo": 1420.2,
+    "recent_points": 0.6,
+    "avg_scored": 1.0,
+    "avg_conceded": 1.8,
+    "rolling_gd": -0.8,
+    "matches_played": 183
+  },
+  "Eswatini": {
+    "elo": 1242.3,
+    "recent_points": 0.4,
+    "avg_scored": 0.6,
+    "avg_conceded": 2.0,
+    "rolling_gd": -1.4,
+    "matches_played": 168
+  },
+  "Turkey": {
+    "elo": 1802.5,
+    "recent_points": 2.2,
+    "avg_scored": 1.6,
+    "avg_conceded": 0.2,
+    "rolling_gd": 1.4,
+    "matches_played": 238
+  },
+  "Brazil": {
+    "elo": 2043.9,
+    "recent_points": 1.2,
+    "avg_scored": 1.4,
+    "avg_conceded": 1.0,
+    "rolling_gd": 0.4,
+    "matches_played": 293
+  },
+  "Wales": {
+    "elo": 1770.3,
+    "recent_points": 2.2,
+    "avg_scored": 1.4,
+    "avg_conceded": 0.4,
+    "rolling_gd": 1.0,
+    "matches_played": 173
+  },
+  "North Macedonia": {
+    "elo": 1574.2,
+    "recent_points": 1.8,
+    "avg_scored": 1.2,
+    "avg_conceded": 1.0,
+    "rolling_gd": 0.2,
+    "matches_played": 189
+  },
+  "Serbia": {
+    "elo": 1792.5,
+    "recent_points": 2.6,
+    "avg_scored": 2.2,
+    "avg_conceded": 1.2,
+    "rolling_gd": 1.0,
+    "matches_played": 222
+  },
+  "Luxembourg": {
+    "elo": 1366.5,
+    "recent_points": 0.0,
+    "avg_scored": 0.6,
+    "avg_conceded": 3.0,
+    "rolling_gd": -2.4,
+    "matches_played": 178
+  },
+  "Northern Ireland": {
+    "elo": 1679.5,
+    "recent_points": 0.8,
+    "avg_scored": 1.0,
+    "avg_conceded": 2.6,
+    "rolling_gd": -1.6,
+    "matches_played": 172
+  },
+  "Jordan": {
+    "elo": 1610.4,
+    "recent_points": 1.6,
+    "avg_scored": 1.6,
+    "avg_conceded": 0.2,
+    "rolling_gd": 1.4,
+    "matches_played": 292
+  },
+  "Italy": {
+    "elo": 1955.6,
+    "recent_points": 3.0,
+    "avg_scored": 4.2,
+    "avg_conceded": 0.4,
+    "rolling_gd": 3.8,
+    "matches_played": 252
+  },
+  "Netherlands": {
+    "elo": 1925.4,
+    "recent_points": 2.6,
+    "avg_scored": 2.8,
+    "avg_conceded": 0.4,
+    "rolling_gd": 2.4,
+    "matches_played": 243
+  },
+  "Germany": {
+    "elo": 1941.7,
+    "recent_points": 2.6,
+    "avg_scored": 3.4,
+    "avg_conceded": 0.6,
+    "rolling_gd": 2.8,
+    "matches_played": 276
+  },
+  "Republic of Ireland": {
+    "elo": 1736.7,
+    "recent_points": 1.6,
+    "avg_scored": 1.4,
+    "avg_conceded": 1.0,
+    "rolling_gd": 0.4,
+    "matches_played": 215
+  },
+  "Hungary": {
+    "elo": 1602.7,
+    "recent_points": 0.6,
+    "avg_scored": 0.6,
+    "avg_conceded": 1.8,
+    "rolling_gd": -1.2,
+    "matches_played": 202
+  },
+  "Greece": {
+    "elo": 1632.1,
+    "recent_points": 2.0,
+    "avg_scored": 1.2,
+    "avg_conceded": 1.0,
+    "rolling_gd": 0.2,
+    "matches_played": 220
+  },
+  "Austria": {
+    "elo": 1688.0,
+    "recent_points": 2.0,
+    "avg_scored": 1.2,
+    "avg_conceded": 0.6,
+    "rolling_gd": 0.6,
+    "matches_played": 185
+  },
+  "France": {
+    "elo": 2012.3,
+    "recent_points": 2.6,
+    "avg_scored": 1.8,
+    "avg_conceded": 0.4,
+    "rolling_gd": 1.4,
+    "matches_played": 271
+  },
+  "Israel": {
+    "elo": 1443.0,
+    "recent_points": 0.6,
+    "avg_scored": 1.4,
+    "avg_conceded": 2.0,
+    "rolling_gd": -0.6,
+    "matches_played": 160
+  },
+  "Russia": {
+    "elo": 1847.9,
+    "recent_points": 2.4,
+    "avg_scored": 3.2,
+    "avg_conceded": 0.8,
+    "rolling_gd": 2.4,
+    "matches_played": 212
+  },
+  "Estonia": {
+    "elo": 1373.9,
+    "recent_points": 0.2,
+    "avg_scored": 0.0,
+    "avg_conceded": 2.6,
+    "rolling_gd": -2.6,
+    "matches_played": 251
+  },
+  "England": {
+    "elo": 1906.0,
+    "recent_points": 2.4,
+    "avg_scored": 4.6,
+    "avg_conceded": 1.0,
+    "rolling_gd": 3.6,
+    "matches_played": 237
+  },
+  "Argentina": {
+    "elo": 1894.4,
+    "recent_points": 1.8,
+    "avg_scored": 2.8,
+    "avg_conceded": 1.0,
+    "rolling_gd": 1.8,
+    "matches_played": 259
+  },
+  "Croatia": {
+    "elo": 1876.2,
+    "recent_points": 2.2,
+    "avg_scored": 2.0,
+    "avg_conceded": 0.8,
+    "rolling_gd": 1.2,
+    "matches_played": 228
+  },
+  "Belgium": {
+    "elo": 2115.4,
+    "recent_points": 3.0,
+    "avg_scored": 5.0,
+    "avg_conceded": 0.4,
+    "rolling_gd": 4.6,
+    "matches_played": 211
+  },
+  "Portugal": {
+    "elo": 1929.9,
+    "recent_points": 2.4,
+    "avg_scored": 3.4,
+    "avg_conceded": 0.6,
+    "rolling_gd": 2.8,
+    "matches_played": 255
+  },
+  "Anguilla": {
+    "elo": 1065.8,
+    "recent_points": 0.0,
+    "avg_scored": 0.4,
+    "avg_conceded": 7.2,
+    "rolling_gd": -6.8,
+    "matches_played": 43
+  },
+  "Botswana": {
+    "elo": 1401.8,
+    "recent_points": 0.4,
+    "avg_scored": 0.0,
+    "avg_conceded": 0.6,
+    "rolling_gd": -0.6,
+    "matches_played": 217
+  },
+  "Uzbekistan": {
+    "elo": 1661.7,
+    "recent_points": 2.4,
+    "avg_scored": 3.0,
+    "avg_conceded": 1.0,
+    "rolling_gd": 2.0,
+    "matches_played": 224
+  },
+  "Mongolia": {
+    "elo": 1154.8,
+    "recent_points": 0.2,
+    "avg_scored": 0.4,
+    "avg_conceded": 2.2,
+    "rolling_gd": -1.8,
+    "matches_played": 69
+  },
+  "Cura\u00e7ao": {
+    "elo": 1545.5,
+    "recent_points": 1.0,
+    "avg_scored": 0.6,
+    "avg_conceded": 0.8,
+    "rolling_gd": -0.2,
+    "matches_played": 103
+  },
+  "Nicaragua": {
+    "elo": 1345.5,
+    "recent_points": 0.8,
+    "avg_scored": 1.0,
+    "avg_conceded": 0.8,
+    "rolling_gd": 0.2,
+    "matches_played": 101
+  },
+  "Zimbabwe": {
+    "elo": 1514.7,
+    "recent_points": 2.2,
+    "avg_scored": 1.6,
+    "avg_conceded": 0.6,
+    "rolling_gd": 1.0,
+    "matches_played": 232
+  },
+  "Saint Vincent and the Grenadines": {
+    "elo": 1461.6,
+    "recent_points": 2.0,
+    "avg_scored": 1.0,
+    "avg_conceded": 0.6,
+    "rolling_gd": 0.4,
+    "matches_played": 54
+  },
+  "Suriname": {
+    "elo": 1476.6,
+    "recent_points": 2.0,
+    "avg_scored": 2.8,
+    "avg_conceded": 0.8,
+    "rolling_gd": 2.0,
+    "matches_played": 103
+  },
+  "Belize": {
+    "elo": 1360.2,
+    "recent_points": 1.2,
+    "avg_scored": 1.2,
+    "avg_conceded": 1.8,
+    "rolling_gd": -0.6,
+    "matches_played": 70
+  },
+  "Montserrat": {
+    "elo": 1316.3,
+    "recent_points": 1.0,
+    "avg_scored": 0.4,
+    "avg_conceded": 0.8,
+    "rolling_gd": -0.4,
+    "matches_played": 30
+  },
+  "Bahamas": {
+    "elo": 1357.8,
+    "recent_points": 2.0,
+    "avg_scored": 2.0,
+    "avg_conceded": 1.2,
+    "rolling_gd": 0.8,
+    "matches_played": 29
+  },
+  "Bolivia": {
+    "elo": 1654.2,
+    "recent_points": 0.6,
+    "avg_scored": 1.2,
+    "avg_conceded": 2.8,
+    "rolling_gd": -1.6,
+    "matches_played": 175
+  },
+  "Grenada": {
+    "elo": 1433.6,
+    "recent_points": 2.2,
+    "avg_scored": 1.2,
+    "avg_conceded": 0.6,
+    "rolling_gd": 0.6,
+    "matches_played": 116
+  },
+  "Cuba": {
+    "elo": 1402.9,
+    "recent_points": 0.8,
+    "avg_scored": 0.2,
+    "avg_conceded": 2.4,
+    "rolling_gd": -2.2,
+    "matches_played": 176
+  },
+  "Ethiopia": {
+    "elo": 1457.0,
+    "recent_points": 0.8,
+    "avg_scored": 0.6,
+    "avg_conceded": 1.0,
+    "rolling_gd": -0.4,
+    "matches_played": 172
+  },
+  "Sudan": {
+    "elo": 1428.8,
+    "recent_points": 1.4,
+    "avg_scored": 1.2,
+    "avg_conceded": 0.6,
+    "rolling_gd": 0.6,
+    "matches_played": 224
+  },
+  "Ecuador": {
+    "elo": 1663.6,
+    "recent_points": 1.8,
+    "avg_scored": 1.6,
+    "avg_conceded": 1.4,
+    "rolling_gd": 0.2,
+    "matches_played": 237
+  },
+  "Aruba": {
+    "elo": 1229.5,
+    "recent_points": 0.0,
+    "avg_scored": 1.0,
+    "avg_conceded": 3.4,
+    "rolling_gd": -2.4,
+    "matches_played": 50
+  },
+  "Puerto Rico": {
+    "elo": 1272.3,
+    "recent_points": 1.2,
+    "avg_scored": 1.2,
+    "avg_conceded": 3.2,
+    "rolling_gd": -2.0,
+    "matches_played": 60
+  },
+  "Malawi": {
+    "elo": 1484.8,
+    "recent_points": 1.6,
+    "avg_scored": 0.6,
+    "avg_conceded": 0.6,
+    "rolling_gd": 0.0,
+    "matches_played": 221
+  },
+  "Venezuela": {
+    "elo": 1810.4,
+    "recent_points": 2.0,
+    "avg_scored": 1.8,
+    "avg_conceded": 0.8,
+    "rolling_gd": 1.0,
+    "matches_played": 233
+  },
+  "Turks and Caicos Islands": {
+    "elo": 1267.3,
+    "recent_points": 1.4,
+    "avg_scored": 2.0,
+    "avg_conceded": 3.8,
+    "rolling_gd": -1.8,
+    "matches_played": 25
+  },
+  "Bahrain": {
+    "elo": 1681.8,
+    "recent_points": 1.6,
+    "avg_scored": 1.4,
+    "avg_conceded": 1.2,
+    "rolling_gd": 0.2,
+    "matches_played": 328
+  },
+  "Kazakhstan": {
+    "elo": 1323.0,
+    "recent_points": 0.6,
+    "avg_scored": 1.0,
+    "avg_conceded": 1.8,
+    "rolling_gd": -0.8,
+    "matches_played": 166
+  },
+  "Namibia": {
+    "elo": 1457.7,
+    "recent_points": 1.2,
+    "avg_scored": 0.8,
+    "avg_conceded": 1.2,
+    "rolling_gd": -0.4,
+    "matches_played": 168
+  },
+  "Gambia": {
+    "elo": 1432.1,
+    "recent_points": 1.2,
+    "avg_scored": 1.6,
+    "avg_conceded": 1.4,
+    "rolling_gd": 0.2,
+    "matches_played": 92
+  },
+  "Mauritania": {
+    "elo": 1546.4,
+    "recent_points": 1.2,
+    "avg_scored": 0.4,
+    "avg_conceded": 0.4,
+    "rolling_gd": 0.0,
+    "matches_played": 109
+  },
+  "Tanzania": {
+    "elo": 1428.0,
+    "recent_points": 1.4,
+    "avg_scored": 1.0,
+    "avg_conceded": 1.0,
+    "rolling_gd": 0.0,
+    "matches_played": 228
+  },
+  "Chinese Taipei": {
+    "elo": 1209.9,
+    "recent_points": 0.0,
+    "avg_scored": 0.4,
+    "avg_conceded": 5.0,
+    "rolling_gd": -4.6,
+    "matches_played": 83
+  },
+  "Uruguay": {
+    "elo": 1945.5,
+    "recent_points": 1.8,
+    "avg_scored": 1.4,
+    "avg_conceded": 1.0,
+    "rolling_gd": 0.4,
+    "matches_played": 244
+  },
+  "Scotland": {
+    "elo": 1627.2,
+    "recent_points": 1.8,
+    "avg_scored": 2.2,
+    "avg_conceded": 2.0,
+    "rolling_gd": 0.2,
+    "matches_played": 171
+  },
+  "Denmark": {
+    "elo": 1872.6,
+    "recent_points": 2.2,
+    "avg_scored": 2.4,
+    "avg_conceded": 0.2,
+    "rolling_gd": 2.2,
+    "matches_played": 215
+  },
+  "Paraguay": {
+    "elo": 1746.2,
+    "recent_points": 1.6,
+    "avg_scored": 1.2,
+    "avg_conceded": 0.8,
+    "rolling_gd": 0.4,
+    "matches_played": 239
+  },
+  "Belarus": {
+    "elo": 1424.9,
+    "recent_points": 0.2,
+    "avg_scored": 0.2,
+    "avg_conceded": 1.8,
+    "rolling_gd": -1.6,
+    "matches_played": 189
+  },
+  "Palestine": {
+    "elo": 1453.2,
+    "recent_points": 0.8,
+    "avg_scored": 0.6,
+    "avg_conceded": 1.0,
+    "rolling_gd": -0.4,
+    "matches_played": 159
+  },
+  "Kenya": {
+    "elo": 1490.5,
+    "recent_points": 0.8,
+    "avg_scored": 0.6,
+    "avg_conceded": 0.8,
+    "rolling_gd": -0.2,
+    "matches_played": 250
+  },
+  "Pakistan": {
+    "elo": 1099.9,
+    "recent_points": 0.0,
+    "avg_scored": 0.6,
+    "avg_conceded": 2.2,
+    "rolling_gd": -1.6,
+    "matches_played": 93
+  },
+  "Burma": {
+    "elo": 1374.2,
+    "recent_points": 1.4,
+    "avg_scored": 1.2,
+    "avg_conceded": 1.8,
+    "rolling_gd": -0.6,
+    "matches_played": 146
+  },
+  "Laos": {
+    "elo": 1048.4,
+    "recent_points": 1.0,
+    "avg_scored": 1.0,
+    "avg_conceded": 1.4,
+    "rolling_gd": -0.4,
+    "matches_played": 128
+  },
+  "Djibouti": {
+    "elo": 1198.7,
+    "recent_points": 1.2,
+    "avg_scored": 1.4,
+    "avg_conceded": 1.4,
+    "rolling_gd": 0.0,
+    "matches_played": 65
+  },
+  "Guinea": {
+    "elo": 1545.8,
+    "recent_points": 1.4,
+    "avg_scored": 1.4,
+    "avg_conceded": 1.2,
+    "rolling_gd": 0.2,
+    "matches_played": 181
+  },
+  "S\u00e3o Tom\u00e9 and Pr\u00edncipe": {
+    "elo": 1265.5,
+    "recent_points": 1.2,
+    "avg_scored": 1.2,
+    "avg_conceded": 1.8,
+    "rolling_gd": -0.6,
+    "matches_played": 31
+  },
+  "Sierra Leone": {
+    "elo": 1482.4,
+    "recent_points": 1.0,
+    "avg_scored": 0.6,
+    "avg_conceded": 1.0,
+    "rolling_gd": -0.4,
+    "matches_played": 94
+  },
+  "Seychelles": {
+    "elo": 1048.8,
+    "recent_points": 0.0,
+    "avg_scored": 0.2,
+    "avg_conceded": 3.2,
+    "rolling_gd": -3.0,
+    "matches_played": 90
+  },
+  "Madagascar": {
+    "elo": 1606.1,
+    "recent_points": 1.8,
+    "avg_scored": 2.0,
+    "avg_conceded": 1.4,
+    "rolling_gd": 0.6,
+    "matches_played": 133
+  },
+  "Guinea-Bissau": {
+    "elo": 1446.4,
+    "recent_points": 1.8,
+    "avg_scored": 1.2,
+    "avg_conceded": 1.4,
+    "rolling_gd": -0.2,
+    "matches_played": 64
+  },
+  "Fiji": {
+    "elo": 1481.6,
+    "recent_points": 1.6,
+    "avg_scored": 4.8,
+    "avg_conceded": 1.4,
+    "rolling_gd": 3.4,
+    "matches_played": 90
+  },
+  "Papua New Guinea": {
+    "elo": 1410.4,
+    "recent_points": 2.0,
+    "avg_scored": 3.6,
+    "avg_conceded": 0.6,
+    "rolling_gd": 3.0,
+    "matches_played": 45
+  },
+  "New Caledonia": {
+    "elo": 1637.8,
+    "recent_points": 3.0,
+    "avg_scored": 4.4,
+    "avg_conceded": 0.0,
+    "rolling_gd": 4.4,
+    "matches_played": 94
+  },
+  "Solomon Islands": {
+    "elo": 1500.8,
+    "recent_points": 1.4,
+    "avg_scored": 6.0,
+    "avg_conceded": 1.8,
+    "rolling_gd": 4.2,
+    "matches_played": 94
+  },
+  "Angola": {
+    "elo": 1472.3,
+    "recent_points": 1.4,
+    "avg_scored": 1.2,
+    "avg_conceded": 1.4,
+    "rolling_gd": -0.2,
+    "matches_played": 234
+  },
+  "Mozambique": {
+    "elo": 1524.8,
+    "recent_points": 2.6,
+    "avg_scored": 1.6,
+    "avg_conceded": 0.4,
+    "rolling_gd": 1.2,
+    "matches_played": 169
+  },
+  "Rwanda": {
+    "elo": 1401.7,
+    "recent_points": 1.0,
+    "avg_scored": 0.4,
+    "avg_conceded": 0.8,
+    "rolling_gd": -0.4,
+    "matches_played": 212
+  },
+  "Mali": {
+    "elo": 1617.8,
+    "recent_points": 1.6,
+    "avg_scored": 1.4,
+    "avg_conceded": 0.8,
+    "rolling_gd": 0.6,
+    "matches_played": 209
+  },
+  "Central African Republic": {
+    "elo": 1445.7,
+    "recent_points": 1.2,
+    "avg_scored": 1.0,
+    "avg_conceded": 1.6,
+    "rolling_gd": -0.6,
+    "matches_played": 59
+  },
+  "Eritrea": {
+    "elo": 1195.4,
+    "recent_points": 0.0,
+    "avg_scored": 0.4,
+    "avg_conceded": 2.0,
+    "rolling_gd": -1.6,
+    "matches_played": 59
+  },
+  "Equatorial Guinea": {
+    "elo": 1360.5,
+    "recent_points": 0.4,
+    "avg_scored": 0.8,
+    "avg_conceded": 1.4,
+    "rolling_gd": -0.6,
+    "matches_played": 104
+  },
+  "Chad": {
+    "elo": 1341.8,
+    "recent_points": 0.8,
+    "avg_scored": 0.4,
+    "avg_conceded": 1.0,
+    "rolling_gd": -0.6,
+    "matches_played": 71
+  },
+  "Liberia": {
+    "elo": 1429.7,
+    "recent_points": 0.8,
+    "avg_scored": 0.2,
+    "avg_conceded": 0.6,
+    "rolling_gd": -0.4,
+    "matches_played": 111
+  },
+  "Cape Verde": {
+    "elo": 1477.8,
+    "recent_points": 1.2,
+    "avg_scored": 1.0,
+    "avg_conceded": 1.0,
+    "rolling_gd": 0.0,
+    "matches_played": 114
+  },
+  "Benin": {
+    "elo": 1591.3,
+    "recent_points": 1.4,
+    "avg_scored": 1.2,
+    "avg_conceded": 1.2,
+    "rolling_gd": 0.0,
+    "matches_played": 141
+  },
+  "Vanuatu": {
+    "elo": 1504.6,
+    "recent_points": 1.4,
+    "avg_scored": 5.0,
+    "avg_conceded": 1.6,
+    "rolling_gd": 3.4,
+    "matches_played": 84
+  },
+  "Somalia": {
+    "elo": 1128.3,
+    "recent_points": 0.6,
+    "avg_scored": 0.8,
+    "avg_conceded": 2.4,
+    "rolling_gd": -1.6,
+    "matches_played": 63
+  },
+  "Mauritius": {
+    "elo": 1118.1,
+    "recent_points": 0.0,
+    "avg_scored": 0.6,
+    "avg_conceded": 2.2,
+    "rolling_gd": -1.6,
+    "matches_played": 121
+  },
+  "Liechtenstein": {
+    "elo": 1165.7,
+    "recent_points": 0.4,
+    "avg_scored": 0.4,
+    "avg_conceded": 2.6,
+    "rolling_gd": -2.2,
+    "matches_played": 155
+  },
+  "San Marino": {
+    "elo": 851.8,
+    "recent_points": 0.0,
+    "avg_scored": 0.2,
+    "avg_conceded": 5.4,
+    "rolling_gd": -5.2,
+    "matches_played": 118
+  },
+  "Ukraine": {
+    "elo": 1900.1,
+    "recent_points": 2.2,
+    "avg_scored": 1.8,
+    "avg_conceded": 1.0,
+    "rolling_gd": 0.8,
+    "matches_played": 207
+  },
+  "Sint Maarten": {
+    "elo": 1313.4,
+    "recent_points": 0.6,
+    "avg_scored": 2.0,
+    "avg_conceded": 3.6,
+    "rolling_gd": -1.6,
+    "matches_played": 13
+  },
+  "Jersey": {
+    "elo": 1705.1,
+    "recent_points": 2.4,
+    "avg_scored": 3.6,
+    "avg_conceded": 0.8,
+    "rolling_gd": 2.8,
+    "matches_played": 52
+  },
+  "Sri Lanka": {
+    "elo": 1025.1,
+    "recent_points": 0.0,
+    "avg_scored": 0.0,
+    "avg_conceded": 4.0,
+    "rolling_gd": -4.0,
+    "matches_played": 128
+  },
+  "Bangladesh": {
+    "elo": 1152.1,
+    "recent_points": 1.4,
+    "avg_scored": 1.6,
+    "avg_conceded": 1.6,
+    "rolling_gd": 0.0,
+    "matches_played": 122
+  },
+  "India": {
+    "elo": 1381.2,
+    "recent_points": 0.6,
+    "avg_scored": 0.6,
+    "avg_conceded": 1.0,
+    "rolling_gd": -0.4,
+    "matches_played": 181
+  },
+  "Saudi Arabia": {
+    "elo": 1709.5,
+    "recent_points": 1.8,
+    "avg_scored": 1.4,
+    "avg_conceded": 1.0,
+    "rolling_gd": 0.4,
+    "matches_played": 322
+  },
+  "Kyrgyzstan": {
+    "elo": 1473.7,
+    "recent_points": 1.4,
+    "avg_scored": 2.2,
+    "avg_conceded": 1.4,
+    "rolling_gd": 0.8,
+    "matches_played": 121
+  },
+  "Iraq": {
+    "elo": 1773.7,
+    "recent_points": 1.8,
+    "avg_scored": 1.2,
+    "avg_conceded": 0.6,
+    "rolling_gd": 0.6,
+    "matches_played": 300
+  },
+  "Tonga": {
+    "elo": 1195.2,
+    "recent_points": 0.0,
+    "avg_scored": 0.6,
+    "avg_conceded": 6.4,
+    "rolling_gd": -5.8,
+    "matches_played": 38
+  },
+  "Cook Islands": {
+    "elo": 1254.9,
+    "recent_points": 1.4,
+    "avg_scored": 1.2,
+    "avg_conceded": 1.0,
+    "rolling_gd": 0.2,
+    "matches_played": 28
+  },
+  "American Samoa": {
+    "elo": 1229.0,
+    "recent_points": 0.8,
+    "avg_scored": 1.8,
+    "avg_conceded": 5.8,
+    "rolling_gd": -4.0,
+    "matches_played": 34
+  },
+  "Tahiti": {
+    "elo": 1475.9,
+    "recent_points": 1.2,
+    "avg_scored": 2.4,
+    "avg_conceded": 2.6,
+    "rolling_gd": -0.2,
+    "matches_played": 77
+  },
+  "Burundi": {
+    "elo": 1344.0,
+    "recent_points": 0.2,
+    "avg_scored": 0.2,
+    "avg_conceded": 2.4,
+    "rolling_gd": -2.2,
+    "matches_played": 150
+  },
+  "Niger": {
+    "elo": 1430.2,
+    "recent_points": 0.2,
+    "avg_scored": 0.6,
+    "avg_conceded": 2.2,
+    "rolling_gd": -1.6,
+    "matches_played": 107
+  },
+  "Guyana": {
+    "elo": 1438.1,
+    "recent_points": 1.4,
+    "avg_scored": 2.2,
+    "avg_conceded": 2.0,
+    "rolling_gd": 0.2,
+    "matches_played": 106
+  },
+  "Indonesia": {
+    "elo": 1307.1,
+    "recent_points": 0.0,
+    "avg_scored": 0.6,
+    "avg_conceded": 3.2,
+    "rolling_gd": -2.6,
+    "matches_played": 179
+  },
+  "Zanzibar": {
+    "elo": 1508.5,
+    "recent_points": 1.6,
+    "avg_scored": 1.2,
+    "avg_conceded": 1.0,
+    "rolling_gd": 0.2,
+    "matches_played": 77
+  },
+  "Cambodia": {
+    "elo": 1207.1,
+    "recent_points": 0.2,
+    "avg_scored": 0.2,
+    "avg_conceded": 4.4,
+    "rolling_gd": -4.2,
+    "matches_played": 133
+  },
+  "Tajikistan": {
+    "elo": 1396.3,
+    "recent_points": 0.8,
+    "avg_scored": 1.0,
+    "avg_conceded": 1.8,
+    "rolling_gd": -0.8,
+    "matches_played": 122
+  },
+  "Andalusia": {
+    "elo": 1575.3,
+    "recent_points": 2.6,
+    "avg_scored": 2.2,
+    "avg_conceded": 0.6,
+    "rolling_gd": 1.6,
+    "matches_played": 9
+  },
+  "Catalonia": {
+    "elo": 1588.6,
+    "recent_points": 1.2,
+    "avg_scored": 1.8,
+    "avg_conceded": 1.4,
+    "rolling_gd": 0.4,
+    "matches_played": 21
+  },
+  "Basque Country": {
+    "elo": 1626.4,
+    "recent_points": 2.2,
+    "avg_scored": 1.8,
+    "avg_conceded": 0.8,
+    "rolling_gd": 1.0,
+    "matches_played": 22
+  },
+  "Saint Martin": {
+    "elo": 1230.9,
+    "recent_points": 1.8,
+    "avg_scored": 1.4,
+    "avg_conceded": 0.8,
+    "rolling_gd": 0.6,
+    "matches_played": 40
+  },
+  "Martinique": {
+    "elo": 1550.0,
+    "recent_points": 0.6,
+    "avg_scored": 1.2,
+    "avg_conceded": 1.6,
+    "rolling_gd": -0.4,
+    "matches_played": 131
+  },
+  "Guadeloupe": {
+    "elo": 1477.1,
+    "recent_points": 2.4,
+    "avg_scored": 4.0,
+    "avg_conceded": 0.6,
+    "rolling_gd": 3.4,
+    "matches_played": 108
+  },
+  "Samoa": {
+    "elo": 1302.9,
+    "recent_points": 0.6,
+    "avg_scored": 0.4,
+    "avg_conceded": 6.4,
+    "rolling_gd": -6.0,
+    "matches_played": 35
+  },
+  "Greenland": {
+    "elo": 1518.3,
+    "recent_points": 1.6,
+    "avg_scored": 1.4,
+    "avg_conceded": 1.8,
+    "rolling_gd": -0.4,
+    "matches_played": 41
+  },
+  "Tibet": {
+    "elo": 1352.8,
+    "recent_points": 0.2,
+    "avg_scored": 0.8,
+    "avg_conceded": 4.0,
+    "rolling_gd": -3.2,
+    "matches_played": 13
+  },
+  "Isle of Man": {
+    "elo": 1685.2,
+    "recent_points": 2.4,
+    "avg_scored": 5.2,
+    "avg_conceded": 1.0,
+    "rolling_gd": 4.2,
+    "matches_played": 36
+  },
+  "Falkland Islands": {
+    "elo": 1301.8,
+    "recent_points": 0.0,
+    "avg_scored": 0.8,
+    "avg_conceded": 3.0,
+    "rolling_gd": -2.2,
+    "matches_played": 29
+  },
+  "Isle of Wight": {
+    "elo": 1572.5,
+    "recent_points": 2.0,
+    "avg_scored": 2.2,
+    "avg_conceded": 1.0,
+    "rolling_gd": 1.2,
+    "matches_played": 22
+  },
+  "Ynys M\u00f4n": {
+    "elo": 1611.2,
+    "recent_points": 3.0,
+    "avg_scored": 2.0,
+    "avg_conceded": 0.8,
+    "rolling_gd": 1.2,
+    "matches_played": 37
+  },
+  "Saare County": {
+    "elo": 1375.5,
+    "recent_points": 1.6,
+    "avg_scored": 2.4,
+    "avg_conceded": 2.0,
+    "rolling_gd": 0.4,
+    "matches_played": 31
+  },
+  "Orkney": {
+    "elo": 1387.2,
+    "recent_points": 1.2,
+    "avg_scored": 1.4,
+    "avg_conceded": 2.4,
+    "rolling_gd": -1.0,
+    "matches_played": 21
+  },
+  "Shetland": {
+    "elo": 1451.7,
+    "recent_points": 0.6,
+    "avg_scored": 1.8,
+    "avg_conceded": 2.6,
+    "rolling_gd": -0.8,
+    "matches_played": 30
+  },
+  "Gibraltar": {
+    "elo": 1147.8,
+    "recent_points": 0.0,
+    "avg_scored": 0.6,
+    "avg_conceded": 4.0,
+    "rolling_gd": -3.4,
+    "matches_played": 79
+  },
+  "Rhodes": {
+    "elo": 1567.0,
+    "recent_points": 1.8,
+    "avg_scored": 1.8,
+    "avg_conceded": 0.8,
+    "rolling_gd": 1.0,
+    "matches_played": 14
+  },
+  "Monaco": {
+    "elo": 1502.2,
+    "recent_points": 2.0,
+    "avg_scored": 1.4,
+    "avg_conceded": 4.4,
+    "rolling_gd": -3.0,
+    "matches_played": 12
+  },
+  "Mayotte": {
+    "elo": 1439.3,
+    "recent_points": 1.2,
+    "avg_scored": 1.0,
+    "avg_conceded": 1.8,
+    "rolling_gd": -0.8,
+    "matches_played": 18
+  },
+  "Canary Islands": {
+    "elo": 1502.2,
+    "recent_points": 1.5,
+    "avg_scored": 1.0,
+    "avg_conceded": 1.0,
+    "rolling_gd": 0.0,
+    "matches_played": 2
+  },
+  "R\u00e9union": {
+    "elo": 1634.1,
+    "recent_points": 2.6,
+    "avg_scored": 3.8,
+    "avg_conceded": 0.8,
+    "rolling_gd": 3.0,
+    "matches_played": 21
+  },
+  "French Guiana": {
+    "elo": 1469.7,
+    "recent_points": 1.0,
+    "avg_scored": 1.0,
+    "avg_conceded": 1.2,
+    "rolling_gd": -0.2,
+    "matches_played": 87
+  },
+  "Vatican City": {
+    "elo": 1458.3,
+    "recent_points": 0.2,
+    "avg_scored": 0.4,
+    "avg_conceded": 3.0,
+    "rolling_gd": -2.6,
+    "matches_played": 6
+  },
+  "Afghanistan": {
+    "elo": 1356.6,
+    "recent_points": 0.8,
+    "avg_scored": 0.4,
+    "avg_conceded": 2.2,
+    "rolling_gd": -1.8,
+    "matches_played": 94
+  },
+  "East Timor": {
+    "elo": 924.2,
+    "recent_points": 0.8,
+    "avg_scored": 0.6,
+    "avg_conceded": 1.8,
+    "rolling_gd": -1.2,
+    "matches_played": 51
+  },
+  "Tuvalu": {
+    "elo": 1266.2,
+    "recent_points": 0.2,
+    "avg_scored": 0.4,
+    "avg_conceded": 8.4,
+    "rolling_gd": -8.0,
+    "matches_played": 29
+  },
+  "Fr\u00f8ya": {
+    "elo": 1306.9,
+    "recent_points": 0.2,
+    "avg_scored": 1.4,
+    "avg_conceded": 4.6,
+    "rolling_gd": -3.2,
+    "matches_played": 20
+  },
+  "Gotland": {
+    "elo": 1412.5,
+    "recent_points": 1.2,
+    "avg_scored": 3.8,
+    "avg_conceded": 1.6,
+    "rolling_gd": 2.2,
+    "matches_played": 25
+  },
+  "Alderney": {
+    "elo": 1340.7,
+    "recent_points": 1.2,
+    "avg_scored": 1.6,
+    "avg_conceded": 3.4,
+    "rolling_gd": -1.8,
+    "matches_played": 19
+  },
+  "Sark": {
+    "elo": 1426.1,
+    "recent_points": 0.0,
+    "avg_scored": 0.0,
+    "avg_conceded": 17.5,
+    "rolling_gd": -17.5,
+    "matches_played": 4
+  },
+  "Kiribati": {
+    "elo": 1359.3,
+    "recent_points": 0.0,
+    "avg_scored": 0.4,
+    "avg_conceded": 12.8,
+    "rolling_gd": -12.4,
+    "matches_played": 8
+  },
+  "Micronesia": {
+    "elo": 1422.6,
+    "recent_points": 0.0,
+    "avg_scored": 0.0,
+    "avg_conceded": 13.0,
+    "rolling_gd": -13.0,
+    "matches_played": 4
+  },
+  "\u00c5land Islands": {
+    "elo": 1534.0,
+    "recent_points": 1.8,
+    "avg_scored": 1.0,
+    "avg_conceded": 0.4,
+    "rolling_gd": 0.6,
+    "matches_played": 26
+  },
+  "Western Isles": {
+    "elo": 1428.5,
+    "recent_points": 0.8,
+    "avg_scored": 1.0,
+    "avg_conceded": 2.6,
+    "rolling_gd": -1.6,
+    "matches_played": 28
+  },
+  "Galicia": {
+    "elo": 1543.7,
+    "recent_points": 1.8,
+    "avg_scored": 1.8,
+    "avg_conceded": 1.4,
+    "rolling_gd": 0.4,
+    "matches_played": 5
+  },
+  "Northern Cyprus": {
+    "elo": 1677.8,
+    "recent_points": 2.2,
+    "avg_scored": 3.2,
+    "avg_conceded": 1.0,
+    "rolling_gd": 2.2,
+    "matches_played": 31
+  },
+  "Kosovo": {
+    "elo": 1595.0,
+    "recent_points": 1.2,
+    "avg_scored": 0.8,
+    "avg_conceded": 1.4,
+    "rolling_gd": -0.6,
+    "matches_played": 39
+  },
+  "Republic of St. Pauli": {
+    "elo": 1478.6,
+    "recent_points": 1.0,
+    "avg_scored": 2.5,
+    "avg_conceded": 1.25,
+    "rolling_gd": 1.25,
+    "matches_played": 4
+  },
+  "G\u0103g\u0103uzia": {
+    "elo": 1454.1,
+    "recent_points": 0.333,
+    "avg_scored": 0.667,
+    "avg_conceded": 3.0,
+    "rolling_gd": -2.333,
+    "matches_played": 3
+  },
+  "Crimea": {
+    "elo": 1521.7,
+    "recent_points": 1.8,
+    "avg_scored": 1.4,
+    "avg_conceded": 2.2,
+    "rolling_gd": -0.8,
+    "matches_played": 5
+  },
+  "Occitania": {
+    "elo": 1553.6,
+    "recent_points": 1.8,
+    "avg_scored": 1.0,
+    "avg_conceded": 0.6,
+    "rolling_gd": 0.4,
+    "matches_played": 18
+  },
+  "S\u00e1pmi": {
+    "elo": 1464.2,
+    "recent_points": 0.6,
+    "avg_scored": 1.0,
+    "avg_conceded": 2.8,
+    "rolling_gd": -1.8,
+    "matches_played": 26
+  },
+  "Silesia": {
+    "elo": 1505.8,
+    "recent_points": 1.0,
+    "avg_scored": 1.0,
+    "avg_conceded": 1.0,
+    "rolling_gd": 0.0,
+    "matches_played": 1
+  },
+  "Comoros": {
+    "elo": 1387.3,
+    "recent_points": 1.6,
+    "avg_scored": 0.6,
+    "avg_conceded": 0.6,
+    "rolling_gd": 0.0,
+    "matches_played": 60
+  },
+  "Montenegro": {
+    "elo": 1458.9,
+    "recent_points": 0.8,
+    "avg_scored": 0.4,
+    "avg_conceded": 2.4,
+    "rolling_gd": -2.0,
+    "matches_played": 104
+  },
+  "Northern Mariana Islands": {
+    "elo": 1102.9,
+    "recent_points": 0.2,
+    "avg_scored": 0.4,
+    "avg_conceded": 5.0,
+    "rolling_gd": -4.6,
+    "matches_played": 21
+  },
+  "Menorca": {
+    "elo": 1578.7,
+    "recent_points": 1.6,
+    "avg_scored": 2.2,
+    "avg_conceded": 1.0,
+    "rolling_gd": 1.2,
+    "matches_played": 21
+  },
+  "Brittany": {
+    "elo": 1513.5,
+    "recent_points": 1.8,
+    "avg_scored": 1.2,
+    "avg_conceded": 1.0,
+    "rolling_gd": 0.2,
+    "matches_played": 5
+  },
+  "Iraqi Kurdistan": {
+    "elo": 1607.2,
+    "recent_points": 1.8,
+    "avg_scored": 1.8,
+    "avg_conceded": 0.6,
+    "rolling_gd": 1.2,
+    "matches_played": 27
+  },
+  "Provence": {
+    "elo": 1429.9,
+    "recent_points": 1.2,
+    "avg_scored": 4.8,
+    "avg_conceded": 2.4,
+    "rolling_gd": 2.4,
+    "matches_played": 15
+  },
+  "Padania": {
+    "elo": 1634.4,
+    "recent_points": 1.4,
+    "avg_scored": 2.0,
+    "avg_conceded": 1.0,
+    "rolling_gd": 1.0,
+    "matches_played": 43
+  },
+  "Arameans Suryoye": {
+    "elo": 1541.2,
+    "recent_points": 2.0,
+    "avg_scored": 1.8,
+    "avg_conceded": 1.2,
+    "rolling_gd": 0.6,
+    "matches_played": 10
+  },
+  "Corsica": {
+    "elo": 1543.6,
+    "recent_points": 1.8,
+    "avg_scored": 1.0,
+    "avg_conceded": 0.6,
+    "rolling_gd": 0.4,
+    "matches_played": 7
+  },
+  "Gozo": {
+    "elo": 1429.7,
+    "recent_points": 0.6,
+    "avg_scored": 1.2,
+    "avg_conceded": 3.4,
+    "rolling_gd": -2.2,
+    "matches_played": 6
+  },
+  "Two Sicilies": {
+    "elo": 1465.4,
+    "recent_points": 0.75,
+    "avg_scored": 0.5,
+    "avg_conceded": 2.0,
+    "rolling_gd": -1.5,
+    "matches_played": 4
+  },
+  "Saint Pierre and Miquelon": {
+    "elo": 1383.5,
+    "recent_points": 0.0,
+    "avg_scored": 0.4,
+    "avg_conceded": 12.0,
+    "rolling_gd": -11.6,
+    "matches_played": 7
+  },
+  "Bonaire": {
+    "elo": 1335.1,
+    "recent_points": 2.0,
+    "avg_scored": 2.4,
+    "avg_conceded": 1.8,
+    "rolling_gd": 0.6,
+    "matches_played": 21
+  },
+  "Darfur": {
+    "elo": 1381.7,
+    "recent_points": 0.0,
+    "avg_scored": 0.2,
+    "avg_conceded": 13.2,
+    "rolling_gd": -13.0,
+    "matches_played": 7
+  },
+  "Raetia": {
+    "elo": 1417.4,
+    "recent_points": 0.2,
+    "avg_scored": 0.6,
+    "avg_conceded": 5.4,
+    "rolling_gd": -4.8,
+    "matches_played": 8
+  },
+  "Western Sahara": {
+    "elo": 1481.7,
+    "recent_points": 1.2,
+    "avg_scored": 2.2,
+    "avg_conceded": 3.2,
+    "rolling_gd": -1.0,
+    "matches_played": 5
+  },
+  "Tamil Eelam": {
+    "elo": 1423.0,
+    "recent_points": 0.6,
+    "avg_scored": 0.8,
+    "avg_conceded": 3.6,
+    "rolling_gd": -2.8,
+    "matches_played": 17
+  },
+  "South Sudan": {
+    "elo": 1226.5,
+    "recent_points": 1.2,
+    "avg_scored": 0.8,
+    "avg_conceded": 1.0,
+    "rolling_gd": -0.2,
+    "matches_played": 43
+  },
+  "Abkhazia": {
+    "elo": 1611.3,
+    "recent_points": 1.8,
+    "avg_scored": 1.2,
+    "avg_conceded": 0.6,
+    "rolling_gd": 0.6,
+    "matches_played": 28
+  },
+  "Artsakh": {
+    "elo": 1556.1,
+    "recent_points": 2.0,
+    "avg_scored": 1.8,
+    "avg_conceded": 1.6,
+    "rolling_gd": 0.2,
+    "matches_played": 11
+  },
+  "Madrid": {
+    "elo": 1491.9,
+    "recent_points": 0.0,
+    "avg_scored": 1.0,
+    "avg_conceded": 2.0,
+    "rolling_gd": -1.0,
+    "matches_played": 1
+  },
+  "Ellan Vannin": {
+    "elo": 1528.9,
+    "recent_points": 1.6,
+    "avg_scored": 2.0,
+    "avg_conceded": 1.4,
+    "rolling_gd": 0.6,
+    "matches_played": 17
+  },
+  "County of Nice": {
+    "elo": 1589.9,
+    "recent_points": 2.0,
+    "avg_scored": 2.2,
+    "avg_conceded": 1.6,
+    "rolling_gd": 0.6,
+    "matches_played": 9
+  },
+  "South Ossetia": {
+    "elo": 1493.9,
+    "recent_points": 2.2,
+    "avg_scored": 1.4,
+    "avg_conceded": 0.8,
+    "rolling_gd": 0.6,
+    "matches_played": 14
+  },
+  "Sz\u00e9kely Land": {
+    "elo": 1433.7,
+    "recent_points": 0.2,
+    "avg_scored": 1.0,
+    "avg_conceded": 3.2,
+    "rolling_gd": -2.2,
+    "matches_played": 23
+  },
+  "Romani people": {
+    "elo": 1492.5,
+    "recent_points": 1.0,
+    "avg_scored": 2.333,
+    "avg_conceded": 2.667,
+    "rolling_gd": -0.333,
+    "matches_played": 3
+  },
+  "Felvid\u00e9k": {
+    "elo": 1498.4,
+    "recent_points": 1.4,
+    "avg_scored": 0.8,
+    "avg_conceded": 0.8,
+    "rolling_gd": 0.0,
+    "matches_played": 8
+  },
+  "Hitra": {
+    "elo": 1442.5,
+    "recent_points": 1.4,
+    "avg_scored": 1.8,
+    "avg_conceded": 2.8,
+    "rolling_gd": -1.0,
+    "matches_played": 11
+  },
+  "Somaliland": {
+    "elo": 1489.0,
+    "recent_points": 1.2,
+    "avg_scored": 2.4,
+    "avg_conceded": 3.6,
+    "rolling_gd": -1.2,
+    "matches_played": 5
+  },
+  "Chagos Islands": {
+    "elo": 1385.4,
+    "recent_points": 0.0,
+    "avg_scored": 1.4,
+    "avg_conceded": 6.0,
+    "rolling_gd": -4.6,
+    "matches_played": 11
+  },
+  "United Koreans in Japan": {
+    "elo": 1480.6,
+    "recent_points": 1.2,
+    "avg_scored": 1.4,
+    "avg_conceded": 0.8,
+    "rolling_gd": 0.6,
+    "matches_played": 11
+  },
+  "Western Armenia": {
+    "elo": 1483.1,
+    "recent_points": 1.0,
+    "avg_scored": 1.6,
+    "avg_conceded": 1.0,
+    "rolling_gd": 0.6,
+    "matches_played": 16
+  },
+  "Panjab": {
+    "elo": 1528.2,
+    "recent_points": 1.0,
+    "avg_scored": 2.6,
+    "avg_conceded": 2.2,
+    "rolling_gd": 0.4,
+    "matches_played": 12
+  },
+  "Barawa": {
+    "elo": 1422.4,
+    "recent_points": 0.6,
+    "avg_scored": 0.4,
+    "avg_conceded": 5.0,
+    "rolling_gd": -4.6,
+    "matches_played": 12
+  },
+  "K\u00e1rp\u00e1talja": {
+    "elo": 1592.8,
+    "recent_points": 2.6,
+    "avg_scored": 2.8,
+    "avg_conceded": 0.8,
+    "rolling_gd": 2.0,
+    "matches_played": 10
+  },
+  "Yorkshire": {
+    "elo": 1546.1,
+    "recent_points": 2.4,
+    "avg_scored": 4.0,
+    "avg_conceded": 2.0,
+    "rolling_gd": 2.0,
+    "matches_played": 7
+  },
+  "Surrey": {
+    "elo": 1508.7,
+    "recent_points": 3.0,
+    "avg_scored": 3.0,
+    "avg_conceded": 1.0,
+    "rolling_gd": 2.0,
+    "matches_played": 1
+  },
+  "Kabylia": {
+    "elo": 1465.1,
+    "recent_points": 1.0,
+    "avg_scored": 1.6,
+    "avg_conceded": 1.4,
+    "rolling_gd": 0.2,
+    "matches_played": 6
+  },
+  "Matabeleland": {
+    "elo": 1498.6,
+    "recent_points": 1.4,
+    "avg_scored": 1.0,
+    "avg_conceded": 2.4,
+    "rolling_gd": -1.4,
+    "matches_played": 5
+  },
+  "Cascadia": {
+    "elo": 1527.6,
+    "recent_points": 2.0,
+    "avg_scored": 4.0,
+    "avg_conceded": 1.8,
+    "rolling_gd": 2.2,
+    "matches_played": 7
+  },
+  "Timor-Leste": {
+    "elo": 1287.3,
+    "recent_points": 0.0,
+    "avg_scored": 1.2,
+    "avg_conceded": 4.8,
+    "rolling_gd": -3.6,
+    "matches_played": 9
+  },
+  "Myanmar": {
+    "elo": 1407.6,
+    "recent_points": 1.2,
+    "avg_scored": 1.0,
+    "avg_conceded": 2.6,
+    "rolling_gd": -1.6,
+    "matches_played": 16
+  },
+  "Parishes of Jersey": {
+    "elo": 1506.3,
+    "recent_points": 2.0,
+    "avg_scored": 3.667,
+    "avg_conceded": 1.333,
+    "rolling_gd": 2.333,
+    "matches_played": 3
+  },
+  "Chameria": {
+    "elo": 1528.0,
+    "recent_points": 1.6,
+    "avg_scored": 1.8,
+    "avg_conceded": 0.8,
+    "rolling_gd": 1.0,
+    "matches_played": 5
+  },
+  "Saint Helena": {
+    "elo": 1436.8,
+    "recent_points": 0.0,
+    "avg_scored": 1.0,
+    "avg_conceded": 6.0,
+    "rolling_gd": -5.0,
+    "matches_played": 4
+  }
+}
