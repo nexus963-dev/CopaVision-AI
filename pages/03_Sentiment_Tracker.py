@@ -97,8 +97,8 @@ hr{border-color:var(--border) !important;margin:1.2rem 0 !important;}
 .stSpinner>div{border-top-color:var(--accent) !important;}
 [data-testid="stSelectbox"]>div>div{background:var(--bg-card) !important;border:1px solid var(--border) !important;border-radius:8px !important;}
 
-.cv-heading{font-family:'Barlow Condensed',sans-serif;font-size:1.6rem;font-weight:700;letter-spacing:1px;color:var(--text);text-transform:uppercase;margin-bottom:0.2rem;}
-.cv-subheading{font-family:'Barlow Condensed',sans-serif;font-size:0.95rem;color:var(--muted);letter-spacing:0.4px;margin-bottom:1rem;}
+.cv-heading{display:block;width:100%;font-family:'Barlow Condensed',sans-serif;font-size:1.6rem;font-weight:700;letter-spacing:1px;color:var(--text);text-transform:uppercase;margin:0 0 0.35rem 0;}
+.cv-subheading{display:block;width:100%;font-family:'Barlow Condensed',sans-serif;font-size:0.95rem;color:var(--muted);letter-spacing:0.4px;margin:0 0 1rem 0;}
 .cv-label{font-family:'Barlow Condensed',sans-serif;font-size:0.7rem;color:var(--muted);letter-spacing:2.5px;text-transform:uppercase;margin-bottom:0.4rem;display:block;}
 .cv-card{background:var(--bg-card);border:1px solid var(--border);border-radius:14px;padding:1.2rem 1.5rem;margin-bottom:0.9rem;}
 .cv-card-blue{border-left:3px solid var(--accent);}
@@ -492,9 +492,9 @@ def render_sidebar():
 # HELPER WIDGETS
 # ─────────────────────────────────────────────────────────────────────────────
 def _section(title, subtitle=""):
-    st.markdown(f'<div class="cv-heading">{title}</div>', unsafe_allow_html=True)
+    st.markdown(f'<h2 class="cv-heading">{title}</h2>', unsafe_allow_html=True)
     if subtitle:
-        st.markdown(f'<div class="cv-subheading">{subtitle}</div>', unsafe_allow_html=True)
+        st.markdown(f'<p class="cv-subheading">{subtitle}</p>', unsafe_allow_html=True)
     st.markdown('<hr style="border-color:#1e3050;">', unsafe_allow_html=True)
 
 
@@ -785,7 +785,7 @@ def page_trending(df, demo):
                     config={"displayModeBar": False})
 
     st.markdown("<br>", unsafe_allow_html=True)
-    st.markdown('<div class="cv-subheading">Topic Detail Table</div>',
+    st.markdown('<p class="cv-subheading">Topic Detail Table</p>',
                 unsafe_allow_html=True)
     display = trend_df.copy()
     display.columns = ["Topic","Mentions","Avg Sentiment","Trend Score"]

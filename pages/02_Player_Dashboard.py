@@ -101,8 +101,8 @@ hr{border-color:var(--border)!important;margin:1rem 0!important;}
 .cv-card-gold  {border-left:3px solid var(--gold);}
 .cv-card-purple{border-left:3px solid var(--purple);}
 
-.cv-heading{font-family:'Barlow Condensed',sans-serif;font-size:1.5rem;font-weight:700;letter-spacing:1px;color:var(--text);text-transform:uppercase;margin-bottom:0.2rem;}
-.cv-sub{font-family:'Barlow Condensed',sans-serif;font-size:0.95rem;color:var(--muted);letter-spacing:0.4px;margin-bottom:0.9rem;}
+.cv-heading{display:block;width:100%;font-family:'Barlow Condensed',sans-serif;font-size:1.5rem;font-weight:700;letter-spacing:1px;color:var(--text);text-transform:uppercase;margin:0 0 0.35rem 0;}
+.cv-sub{display:block;width:100%;font-family:'Barlow Condensed',sans-serif;font-size:0.95rem;color:var(--muted);letter-spacing:0.4px;margin:0 0 0.9rem 0;}
 .cv-label{font-family:'Barlow Condensed',sans-serif;font-size:0.7rem;color:var(--muted);letter-spacing:2.5px;text-transform:uppercase;margin-bottom:0.3rem;display:block;}
 
 /* Onboarding / how-to banner */
@@ -995,8 +995,8 @@ def _comparison_bars(r1, r2, n1, n2, pp_df):
 # PAGE 1 — SEARCH A PLAYER
 # ─────────────────────────────────────────────────────────────────────────────
 def page_search(ps_df, pp_df, cl_df):
-    st.markdown('<div class="cv-heading">🔍 Search a Player</div>', unsafe_allow_html=True)
-    st.markdown('<div class="cv-sub">Pick any player from the database and explore their full performance report</div>', unsafe_allow_html=True)
+    st.markdown('<h2 class="cv-heading">🔍 Search a Player</h2>', unsafe_allow_html=True)
+    st.markdown('<p class="cv-sub">Pick any player from the database and explore their full performance report</p>', unsafe_allow_html=True)
     st.markdown("<hr>", unsafe_allow_html=True)
 
     # Guided picker
@@ -1245,8 +1245,8 @@ def _render_playing_style(player_row, per90_row, pp_df, cl_df):
 # PAGE 2 — COMPARE TWO PLAYERS
 # ─────────────────────────────────────────────────────────────────────────────
 def page_compare(ps_df, pp_df, cl_df):
-    st.markdown('<div class="cv-heading">⚖️ Compare Two Players</div>', unsafe_allow_html=True)
-    st.markdown('<div class="cv-sub">Pick any two players and see how they stack up side-by-side</div>', unsafe_allow_html=True)
+    st.markdown('<h2 class="cv-heading">⚖️ Compare Two Players</h2>', unsafe_allow_html=True)
+    st.markdown('<p class="cv-sub">Pick any two players and see how they stack up side-by-side</p>', unsafe_allow_html=True)
     st.markdown("<hr>", unsafe_allow_html=True)
 
     # Explanation banner
@@ -1419,8 +1419,8 @@ def _comparison_table(ps1, ps2, pp1, pp2, n1, n2, pp_df):
 # PAGE 3 — EXPLORE PLAYER TYPES
 # ─────────────────────────────────────────────────────────────────────────────
 def page_clusters(ps_df, cl_df):
-    st.markdown('<div class="cv-heading">🗺️ Explore Player Types</div>', unsafe_allow_html=True)
-    st.markdown('<div class="cv-sub">Our AI grouped 7,000+ players into 8 playing styles using machine learning — explore them here</div>', unsafe_allow_html=True)
+    st.markdown('<h2 class="cv-heading">🗺️ Explore Player Types</h2>', unsafe_allow_html=True)
+    st.markdown('<p class="cv-sub">Our AI grouped 7,000+ players into 8 playing styles using machine learning — explore them here</p>', unsafe_allow_html=True)
     st.markdown("<hr>", unsafe_allow_html=True)
 
     # Explanation
@@ -1523,8 +1523,8 @@ def page_clusters(ps_df, cl_df):
 # PAGE 4 — FIND SIMILAR PLAYERS
 # ─────────────────────────────────────────────────────────────────────────────
 def page_similar(ps_df, pp_df, sim_df, cl_df):
-    st.markdown('<div class="cv-heading">🔗 Find Similar Players</div>', unsafe_allow_html=True)
-    st.markdown('<div class="cv-sub">Pick any player and we\'ll find the players who play most like them — great for scouting alternatives</div>', unsafe_allow_html=True)
+    st.markdown('<h2 class="cv-heading">🔗 Find Similar Players</h2>', unsafe_allow_html=True)
+    st.markdown('<p class="cv-sub">Pick any player and we\'ll find the players who play most like them — great for scouting alternatives</p>', unsafe_allow_html=True)
     st.markdown("<hr>", unsafe_allow_html=True)
 
     st.markdown("""

@@ -168,20 +168,24 @@ hr {border-color: var(--border) !important; margin: 1.2rem 0 !important;}
 
 /* ── Section headings ── */
 .cv-heading {
+    display: block;
+    width: 100%;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 1.6rem;
     font-weight: 700;
     letter-spacing: 1px;
     color: var(--text);
     text-transform: uppercase;
-    margin-bottom: 0.4rem;
+    margin: 0 0 0.4rem 0;
 }
 .cv-subheading {
+    display: block;
+    width: 100%;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 1.05rem;
     color: var(--muted);
     letter-spacing: 0.5px;
-    margin-bottom: 1.2rem;
+    margin: 0 0 1.2rem 0;
 }
 
 /* ── Result badge ── */
@@ -630,10 +634,10 @@ def render_sidebar(team_stats: dict, models: dict):
 def page_match_predictor(models: dict, team_stats: dict, model_choice: str):
     # ── Header ────────────────────────────────────────────────────────────────
     st.markdown("""
-    <div class="cv-heading">⚽ Match Outcome Predictor</div>
-    <div class="cv-subheading">
+    <h2 class="cv-heading">⚽ Match Outcome Predictor</h2>
+    <p class="cv-subheading">
         Select two international teams and get AI-powered match predictions powered by Elo ratings and ML
-    </div>
+    </p>
     """, unsafe_allow_html=True)
 
     st.markdown('<hr style="border-color:#1e3050;">', unsafe_allow_html=True)
@@ -936,8 +940,8 @@ def _render_match_insights(home_team, away_team, h, a,
 # ─────────────────────────────────────────────────────────────────────────────
 def page_team_explorer(team_stats: dict):
     st.markdown("""
-    <div class="cv-heading">📊 Team Explorer</div>
-    <div class="cv-subheading">Browse Elo ratings, form, and stats for all 298 international teams</div>
+    <h2 class="cv-heading">📊 Team Explorer</h2>
+    <p class="cv-subheading">Browse Elo ratings, form, and stats for all 298 international teams</p>
     """, unsafe_allow_html=True)
     st.markdown('<hr style="border-color:#1e3050;">', unsafe_allow_html=True)
 
@@ -1028,15 +1032,15 @@ def page_team_explorer(team_stats: dict):
 # ─────────────────────────────────────────────────────────────────────────────
 def page_model_insights(models: dict, model_choice: str):
     st.markdown("""
-    <div class="cv-heading">🧠 Model Insights</div>
-    <div class="cv-subheading">Feature importance, model architecture, and performance metrics</div>
+    <h2 class="cv-heading">🧠 Model Insights</h2>
+    <p class="cv-subheading">Feature importance, model architecture, and performance metrics</p>
     """, unsafe_allow_html=True)
     st.markdown('<hr style="border-color:#1e3050;">', unsafe_allow_html=True)
 
     model = models[model_choice]
 
     # Performance cards
-    st.markdown('<div class="cv-subheading">Model Performance on 2017–2020 Test Set</div>',
+    st.markdown('<p class="cv-subheading">Model Performance on 2017–2020 Test Set</p>',
                 unsafe_allow_html=True)
     perf_data = {
         "Random Forest":        {"accuracy": 54.5, "f1": 0.510, "params": "300 trees, depth 8"},
@@ -1053,7 +1057,7 @@ def page_model_insights(models: dict, model_choice: str):
 
     # Feature importance (RF only)
     if hasattr(model, "feature_importances_"):
-        st.markdown('<div class="cv-subheading">Feature Importance — Random Forest (Gini)</div>',
+        st.markdown('<p class="cv-subheading">Feature Importance — Random Forest (Gini)</p>',
                     unsafe_allow_html=True)
         fig = make_feature_importance_chart(model)
         if fig:
@@ -1074,7 +1078,7 @@ def page_model_insights(models: dict, model_choice: str):
             """)
     else:
         # Logistic Regression — show coefficients
-        st.markdown('<div class="cv-subheading">Logistic Regression Coefficients</div>',
+        st.markdown('<p class="cv-subheading">Logistic Regression Coefficients</p>',
                     unsafe_allow_html=True)
         coef_df = pd.DataFrame(
             model.coef_,
@@ -1130,8 +1134,8 @@ Random Forest uses `class_weight='balanced'` to compensate for the draw minority
 # ─────────────────────────────────────────────────────────────────────────────
 def page_about():
     st.markdown("""
-    <div class="cv-heading">ℹ️ About CopaVision AI</div>
-    <div class="cv-subheading">Phase 1 — International Football Match Predictor</div>
+    <h2 class="cv-heading">ℹ️ About CopaVision AI</h2>
+    <p class="cv-subheading">Phase 1 — International Football Match Predictor</p>
     """, unsafe_allow_html=True)
     st.markdown('<hr style="border-color:#1e3050;">', unsafe_allow_html=True)
 
