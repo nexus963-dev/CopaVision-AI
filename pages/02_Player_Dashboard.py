@@ -57,7 +57,7 @@ st.markdown("""
         radial-gradient(ellipse at 85% 100%,rgba(0,255,157,0.04) 0%,transparent 50%);
     font-family:'DM Sans',sans-serif; color:var(--text);
 }
-#MainMenu,footer,header{visibility:hidden;}
+#MainMenu,footer{visibility:hidden;}
 .block-container{padding-top:1.2rem;padding-bottom:2rem;}
 
 /* Sidebar */
@@ -393,28 +393,9 @@ def render_sidebar():
         ], label_visibility="collapsed")
 
         st.markdown("<hr>", unsafe_allow_html=True)
-
-        # How-to guide in sidebar
-        st.markdown('<span class="cv-label">HOW TO USE THIS TOOL</span>', unsafe_allow_html=True)
         st.markdown("""
         <div style="font-size:0.82rem;line-height:1.8;color:#8a9ab0;">
-            <b style="color:#e8f1ff;">1.</b> Pick a tool above<br>
-            <b style="color:#e8f1ff;">2.</b> Use dropdowns to filter<br>
-            <b style="color:#e8f1ff;">3.</b> Select a player from the list<br>
-            <b style="color:#e8f1ff;">4.</b> Read the charts &amp; cards<br>
-            <br>
-            <span style="color:#5a7a9a;font-size:0.78rem;">
-            Tip: Hover over any chart for exact values.
-            Open the Glossary to learn what stats mean.
-            </span>
-        </div>""", unsafe_allow_html=True)
-
-        st.markdown("<hr>", unsafe_allow_html=True)
-        st.markdown("""
-        <div style="font-size:0.8rem;line-height:2;">
-            <span style="color:#00ff9d;">✓</span> Phase 1 · Match Predictor<br>
-            <span style="color:#00d4ff;">✓</span> Phase 2 · Player Intelligence<br>
-            <span style="color:#5a7a9a;">○</span> Phase 3 · Sentiment Tracker
+            Choose a tool above, then use the page controls to filter players and compare stats.
         </div>""", unsafe_allow_html=True)
 
     # Strip emoji prefix for routing
@@ -1006,7 +987,7 @@ def _comparison_bars(r1, r2, n1, n2, pp_df):
 
     st.plotly_chart(
         fig,
-        use_container_width=True,
+        width="stretch",
         config={"displayModeBar": False}
     )
 
@@ -1072,7 +1053,7 @@ def page_search(ps_df, pp_df, cl_df):
 
         c1, c2 = st.columns([3, 2])
         with c1:
-            st.plotly_chart(make_pct_chart(per90_row, pp_df), use_container_width=True,
+            st.plotly_chart(make_pct_chart(per90_row, pp_df), width="stretch",
                             config={"displayModeBar": False})
         with c2:
             # Strengths & weaknesses
@@ -1332,7 +1313,7 @@ def page_compare(ps_df, pp_df, cl_df):
             Numbers shown are percentile ranks (0–100), not raw stat values.
         </div>""", unsafe_allow_html=True)
         st.plotly_chart(make_radar(p1_pp, p2_pp, n1, n2, pp_df),
-                        use_container_width=True, config={"displayModeBar": False})
+                        width="stretch", config={"displayModeBar": False})
 
     with t2:
         _comparison_bars(p1_pp, p2_pp, n1, n2, pp_df)
@@ -1374,53 +1355,7 @@ def _mini_card(ps_row, cl_df, color):
     </div>""", unsafe_allow_html=True)
 
 
-def _comparison_bars(r1, r2, n1, n2, pp_df):
-    METRICS = [
-        ("Goals / 90",       "goals_per90"),
-        ("Assists / 90",     "assists_per90"),
-        ("xG / 90",          "xg_per90"),
-        ("xA / 90",          "xassists_per90"),
-        ("Prog. Passes / 90","progressive_passes_per90"),
-        ("Dribbles / 90",    "dribbles_completed_per90"),
-        ("Tackles / 90",     "tackles_per90"),
-        ("Interceptions / 90","interceptions_per90"),
-        ("Pass Accuracy",    "pass_accuracy"),
-        ("Pressures / 90",   "pressures_per90"),
-    ]
-    labels, v1, v2 = [], [], []
-    for lbl, col in METRICS:
-        if col in pp_df.columns:
-            labels.append(lbl)
-            v1.append(pct_rank(pp_df[col], r1.get(col, 0)))
-            v2.append(pct_rank(pp_df[col], r2.get(col, 0)))
 
-    st.markdown("""
-    <div class="cv-card cv-card-blue" style="margin-bottom:0.8rem;">
-        <b style="color:#00d4ff;">Reading this chart</b> — bars show <b>percentile rank</b> (0–100).
-        Longer bar = better than more players at that stat. 50 = average.
-    </div>""", unsafe_allow_html=True)
-
-    fig = go.Figure()
-    fig.add_trace(go.Bar(name=n1, x=labels, y=v1, marker_color=C["green"],
-                         text=[f"{v:.0f}" for v in v1], textposition="outside",
-                         textfont=dict(size=10, color=C["text"]),
-                         hovertemplate="<b>%{x}</b><br>" + n1 + ": %{y:.0f}th percentile<extra></extra>"))
-    fig.add_trace(go.Bar(name=n2, x=labels, y=v2, marker_color=C["accent"],
-                         text=[f"{v:.0f}" for v in v2], textposition="outside",
-                         textfont=dict(size=10, color=C["text"]),
-                         hovertemplate="<b>%{x}</b><br>" + n2 + ": %{y:.0f}th percentile<extra></extra>"))
-    fig.add_hline(y=50, line=dict(color=C["muted"], dash="dash", width=1),
-                  annotation_text="Average", annotation_position="right",
-                  annotation_font=dict(color=C["muted"], size=10))
-    fig.update_layout(**_PLOT_BASE(), barmode="group",
-                      xaxis=dict(tickfont=dict(family="Barlow Condensed",size=10,color=C["text"])),
-                      yaxis=dict(range=[0,125], gridcolor=C["border"],
-                                 title="Percentile Rank",
-                                 titlefont=dict(color=C["muted"])),
-                      legend=dict(font=dict(family="Barlow Condensed",color=C["text"],size=13),
-                                  bgcolor="rgba(0,0,0,0)"),
-                      height=380, margin=dict(t=20,b=20,l=50,r=20))
-    st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
 
 
 def _comparison_table(ps1, ps2, pp1, pp2, n1, n2, pp_df):
@@ -1477,7 +1412,7 @@ def _comparison_table(ps1, ps2, pp1, pp2, n1, n2, pp_df):
         return ["","",""]
 
     st.dataframe(display.style.apply(highlight, axis=1),
-                 use_container_width=True, height=480)
+                 width="stretch", height=480)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -1539,7 +1474,7 @@ def page_clusters(ps_df, cl_df):
 
     mode = "tsne" if "t-SNE" in proj else "pca"
     st.plotly_chart(make_cluster_scatter(plot_df, hl_id, mode),
-                    use_container_width=True, config={"displayModeBar": False})
+                    width="stretch", config={"displayModeBar": False})
 
     st.markdown('<hr style="border-color:#1e3050;">', unsafe_allow_html=True)
 
@@ -1581,7 +1516,7 @@ def page_clusters(ps_df, cl_df):
                    .head(15)[["display_name","team","competition","position",
                                "goals","assists","minutes_played"]])
             top.columns = ["Player","Team","Competition","Position","Goals","Assists","Minutes"]
-            st.dataframe(top.reset_index(drop=True), use_container_width=True, height=420)
+            st.dataframe(top.reset_index(drop=True), width="stretch", height=420)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -1616,7 +1551,7 @@ def page_similar(ps_df, pp_df, sim_df, cl_df):
         same_pos = st.toggle("Same position only",
                              help="Turn this ON to only see players in the same position")
 
-    if st.button("🔍  Find Similar Players", use_container_width=False):
+    if st.button("🔍  Find Similar Players", width="content"):
         with st.spinner("Comparing against 7,000+ players…"):
             sim_rows = sim_df[sim_df["player_id"] == pid]
             if sim_rows.empty:

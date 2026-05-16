@@ -78,7 +78,7 @@ CUSTOM_CSS = """
 }
 
 /* ── Hide default Streamlit chrome ── */
-#MainMenu, footer, header {visibility: hidden;}
+#MainMenu, footer {visibility: hidden;}
 .block-container {padding-top: 1.5rem; padding-bottom: 2rem;}
 
 /* ── Sidebar ── */
@@ -615,48 +615,9 @@ def render_sidebar(team_stats: dict, models: dict):
         )
 
         st.markdown("<hr>", unsafe_allow_html=True)
-
-        # Stats strip
-        st.markdown(f"""
-        <div style="text-align:center;">
-            <p style="font-family:'Barlow Condensed',sans-serif; font-size:0.7rem;
-               color:#5a7a9a; letter-spacing:3px; text-transform:uppercase; margin-bottom:0.8rem;">
-               DATABASE</p>
-            <div style="display:flex; justify-content:space-around;">
-                <div>
-                    <div style="font-family:'Barlow Condensed',sans-serif;
-                         font-size:1.6rem; font-weight:700; color:#00d4ff;">
-                         {len(team_stats)}</div>
-                    <div style="font-size:0.7rem; color:#5a7a9a;">Teams</div>
-                </div>
-                <div>
-                    <div style="font-family:'Barlow Condensed',sans-serif;
-                         font-size:1.6rem; font-weight:700; color:#00ff9d;">
-                         19k+</div>
-                    <div style="font-size:0.7rem; color:#5a7a9a;">Matches</div>
-                </div>
-                <div>
-                    <div style="font-family:'Barlow Condensed',sans-serif;
-                         font-size:1.6rem; font-weight:700; color:#d2a8ff;">
-                         2020</div>
-                    <div style="font-size:0.7rem; color:#5a7a9a;">Latest</div>
-                </div>
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
-
-        st.markdown("<hr>", unsafe_allow_html=True)
-
-        # Phase roadmap
         st.markdown("""
-        <p style="font-family:'Barlow Condensed',sans-serif; font-size:0.7rem;
-           color:#5a7a9a; letter-spacing:3px; text-transform:uppercase; margin-bottom:0.8rem;">
-           ROADMAP</p>
-        <div style="font-size:0.82rem; line-height:2;">
-            <span style="color:#00ff9d;">✓</span> Phase 1 · Match Predictor<br>
-            <span style="color:#5a7a9a;">○</span> Phase 2 · Player Dashboard<br>
-            <span style="color:#5a7a9a;">○</span> Phase 3 · Sentiment Tracker<br>
-            <span style="color:#5a7a9a;">○</span> Phase 4 · Live Match Feed
+        <div style="font-size:0.82rem; line-height:1.6; color:#8a9ab0;">
+            Select a page and model to start exploring the prediction dashboard.
         </div>
         """, unsafe_allow_html=True)
 
@@ -742,7 +703,7 @@ def page_match_predictor(models: dict, team_stats: dict, model_choice: str):
     # ── Predict Button ─────────────────────────────────────────────────────────
     col_btn, _ = st.columns([2, 5])
     with col_btn:
-        predict_clicked = st.button("🔮  Generate Prediction", use_container_width=True)
+        predict_clicked = st.button("🔮  Generate Prediction", width="stretch")
 
     st.markdown('<hr style="border-color:#1e3050;">', unsafe_allow_html=True)
 
@@ -795,14 +756,14 @@ def page_match_predictor(models: dict, team_stats: dict, model_choice: str):
                 st.plotly_chart(
                     make_probability_donut(home_prob, draw_prob, away_prob,
                                            home_team, away_team),
-                    use_container_width=True, config={"displayModeBar": False},
+                    width="stretch", config={"displayModeBar": False},
                 )
             with c2:
                 st.markdown("<br>", unsafe_allow_html=True)
                 st.plotly_chart(
                     make_probability_bars(home_prob, draw_prob, away_prob,
                                           home_team, away_team),
-                    use_container_width=True, config={"displayModeBar": False},
+                    width="stretch", config={"displayModeBar": False},
                 )
 
             # Metric cards row
@@ -817,16 +778,16 @@ def page_match_predictor(models: dict, team_stats: dict, model_choice: str):
         with tab_radar:
             st.plotly_chart(
                 make_team_radar(h_feats, a_feats, home_team, away_team),
-                use_container_width=True, config={"displayModeBar": False},
+                width="stretch", config={"displayModeBar": False},
             )
             # Elo gauges
             g1, g2 = st.columns(2)
             with g1:
                 st.plotly_chart(make_elo_gauge(h_feats["elo"], home_team, COLORS["home"]),
-                                use_container_width=True, config={"displayModeBar": False})
+                                width="stretch", config={"displayModeBar": False})
             with g2:
                 st.plotly_chart(make_elo_gauge(a_feats["elo"], away_team, COLORS["away"]),
-                                use_container_width=True, config={"displayModeBar": False})
+                                width="stretch", config={"displayModeBar": False})
 
         with tab_insights:
             _render_match_insights(home_team, away_team, h_feats, a_feats,
@@ -1022,7 +983,7 @@ def page_team_explorer(team_stats: dict):
         title=dict(text="Top 15 Teams by Elo Rating", font=dict(
             family="Barlow Condensed", size=16, color=COLORS["text"])),
     )
-    st.plotly_chart(fig_top, use_container_width=True, config={"displayModeBar": False})
+    st.plotly_chart(fig_top, width="stretch", config={"displayModeBar": False})
 
     # Scatter: Elo vs Goals Scored
     with st.expander("🔍  Elo vs. Attack Strength (scatter)", expanded=False):
@@ -1040,7 +1001,7 @@ def page_team_explorer(team_stats: dict):
             height=420, margin=dict(t=20, b=20),
             coloraxis_colorbar=dict(tickfont=dict(color=COLORS["muted"])),
         )
-        st.plotly_chart(fig_scatter, use_container_width=True, config={"displayModeBar": False})
+        st.plotly_chart(fig_scatter, width="stretch", config={"displayModeBar": False})
 
     # Filterable table
     st.markdown("<br>", unsafe_allow_html=True)
@@ -1057,7 +1018,7 @@ def page_team_explorer(team_stats: dict):
             "Goals Conceded": "{:.2f}",
             "Goal Difference": "{:+.2f}",
         }),
-        use_container_width=True,
+        width="stretch",
         height=420,
     )
 
@@ -1096,7 +1057,7 @@ def page_model_insights(models: dict, model_choice: str):
                     unsafe_allow_html=True)
         fig = make_feature_importance_chart(model)
         if fig:
-            st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
+            st.plotly_chart(fig, width="stretch", config={"displayModeBar": False})
 
         # Feature legend
         with st.expander("📖  Why These Features?"):
@@ -1137,7 +1098,7 @@ def page_model_insights(models: dict, model_choice: str):
             legend=dict(font=dict(color=COLORS["text"])),
             margin=dict(t=20, b=80),
         )
-        st.plotly_chart(fig_coef, use_container_width=True, config={"displayModeBar": False})
+        st.plotly_chart(fig_coef, width="stretch", config={"displayModeBar": False})
 
     # Architecture explainer
     with st.expander("🏗️  Model Architecture & Training Details"):
